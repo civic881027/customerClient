@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingCart"
+    android:stretchColumns="1">
+    <ImageView
+        android:id="@+id/ivRestaurant"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        />
+    <TableRow>
+        <TextView
+            android:id="@+id/tvSCrestname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSCrestAddress"
+            android:textSize="12sp"
+            android:layout_gravity="left"
+            />
+    </TableRow>
+    <ScrollView android:layout_height="150dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSCrestfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </ScrollView>
+    <TableRow >
+        <TextView
+            android:text="Total:"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_gravity="bottom|right"
+            android:paddingRight="5dp"
+            android:textSize="20sp"
+            />
+    </TableRow>
+    <EditText android:id="@+id/etAddress"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:text="106台北市大安區基隆路四段43號"/>
+    <Button
+        android:onClick="sendOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="sendOrder"/>
+</TableLayout>

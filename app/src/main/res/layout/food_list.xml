@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:stretchColumns="1"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:background="?attr/selectableItemBackground"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow >
+        <TextView
+            android:id="@+id/tvFoodName"
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/ivFood"
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:layout_span="2"
+            android:layout_gravity="end"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:paddingRight="5dp"
+            android:id="@+id/tvPrice"
+            android:textSize="20sp"
+            android:layout_gravity="left"
+            />
+        <TextView
+            android:id="@+id/tvFoodCount"
+            android:textSize="20sp"
+            android:layout_gravity="right"
+            />
+    </TableRow>
+
+</TableLayout>

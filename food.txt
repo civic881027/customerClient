@@ -1,0 +1,8 @@
+大麥克餐,130,https://imgur.com/Itg7XRG.jpg,1
+雙層牛肉吉事堡餐,145,https://imgur.com/qaCXcZ4.jpg,1
+板烤雞腿堡餐,120,https://imgur.com/0VAmzrE.jpg,1
+愛司檸果,60,https://imgur.com/cd00jNJ.jpg,2
+愛司紅茶,65,https://imgur.com/OeYRuM1.jpg,2
+熟成歐蕾,55,https://imgur.com/e8iWaFm.jpg,2
+棉被午茉綠,65,https://imgur.com/vy5jYkG.jpg,3
+日安紅珍珠歐蕾,65,https://imgur.com/bWKSvhu.jpg,3

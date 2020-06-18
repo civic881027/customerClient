@@ -1,0 +1,5 @@
+rootProject.name='delivery'
+include ':app'
+include ':server'
+include ':lib'
+include ':lib2'
